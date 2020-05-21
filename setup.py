@@ -178,7 +178,7 @@ setup(
     packages=find_packages(),
     package_data={
         'tensorflow_datasets': DATASET_FILES + [
-            'scripts/templates/*',
+            'scripts/documentation/templates/*',
         ],
     },
     scripts=[],
